@@ -1,0 +1,7 @@
+unicafe = int(input("Montako kertaa viikossa syöt Unicafessa? "))
+unicafe_hinta = float(input("Unicafe-lounaan hinta? "))
+ruokaostokset = float(input("Paljonko käytät viikossa ruokaostoksiin? "))
+print()
+print("Kustannukset keskimäärin:")
+print(f"Päivässä {((unicafe_hinta * unicafe) + ruokaostokset) / 7} euroa")
+print(f"Viikossa {(unicafe_hinta * unicafe) + ruokaostokset} euroa")
